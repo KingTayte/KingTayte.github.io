@@ -1,0 +1,204 @@
+/*This is my stylesheet*/
+
+body{
+    margin: auto;
+    padding: 0rem;
+    background-image: url("images/pexels-anna-shvets-4312852_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.About{
+    margin: auto;
+    padding: 0rem;
+    background-image: url("images/pexels-stephanie-ho-994164_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Services{
+    margin: auto;
+    padding: 0rem;
+    background-image: url("images/david-pisnoy-46juD4zY1XA-unsplash_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+
+
+.Contact{
+    margin: auto;
+    padding: 0rem;
+    background-image: url("images/pexels-andreea-ch-1166644_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 1rem 0rem 1rem 0rem;
+    margin-top: 1.5rem;
+    border-color: black;
+    margin: auto;
+    border-radius: 5rem;
+    background-color: black;
+}
+
+nav li{
+    list-style-type: none;
+    border: blue;
+    padding: 0rem;
+    margin: auto;
+}
+
+nav li a{
+    text-decoration: none;
+    border: indigo ;
+    margin: auto;
+    padding: 0.5rem;
+    color: whitesmoke;
+}
+
+nav li a:hover{
+    background-color: darkslategray;
+    text-decoration: none;
+}
+
+h1{
+    border: green;
+    text-align: center;
+    font-size: 4rem;
+    color: whitesmoke;
+}
+
+div p{
+    border-bottom: white solid;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: auto;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding-bottom: 5rem;
+    color: whitesmoke;
+}
+
+p a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.format{
+    margin: auto;
+    margin-bottom: 0rem;
+}
+
+.format1{
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: auto;
+    margin-top: 0rem;
+    border: none;
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
+}
+
+.format2{
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 0rem;
+    padding-top: 0rem;
+    list-style-type: none;
+    border-bottom: white solid;
+    padding-bottom: 1rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+
+.format3{
+    text-decoration: none;
+    text-align: center;
+}
+
+.headingli{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 0rem;
+    padding-bottom: 1rem;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 0rem;
+}
+
+.conclusion{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+}
+
+ol{
+    list-style-type: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+ol li{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row nowrap;
+    list-style-type: none;
+    border: brown;
+    text-align: center;
+    margin-left: 35%;
+    margin: auto;
+}
+
+footer ul li{
+    text-decoration: none;
+    text-align: center;
+    border: blueviolet;
+}
+
+img{
+    text-align: center;
+    border: blue;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+    border:  green;
+}
+
+footer{
+    background-color: black;
+    margin: auto;
+    margin-top: 10rem;
+    padding-bottom: 8rem;
+    display: flex;
+    flex-direction: column;
+}
